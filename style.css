@@ -104,6 +104,8 @@ main > p {
     line-height: 25px;
     margin-top: 20px;
     font-size: 1.5em;
+    text-align: justify;
+    text-indent: 10px;
 }
 main strong {
     color: var(--cor05);
@@ -155,4 +157,11 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+img {
+    margin: auto;
+    display: block;
+    height: 200px;
+    width: 150px;
 }
