@@ -9,18 +9,6 @@
 }
 
 @font-face {
-    font-family: "dark";
-    src: url('fonts/DeathMohawk_PERSONAL_USE_ONLY.otf') format('opentype');
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'teste';
-    src: url('fonts/Aligator.otf') format('opentype');
-    font-weight: normal;
-}
-
-@font-face {
     font-family: mine;
     src: url('fonts/Minecrafter.Reg.ttf') format('truetype');
     font-weight: normal;
@@ -28,7 +16,14 @@
 
 @font-face {
     font-family: titulo;
-    src: url('fonts/Fried Kentucky.otf') format('opentype');;
+    src: url('fonts/JAi_____.TTF') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: subtitulo;
+    src: url('fonts/Garet-Book.ttf') format('truetype');
+    font-weight: normal;
 }
 :root {
     --cor01 : #BFC3BA;
@@ -53,7 +48,7 @@ header {
 
 header > h1 {
     margin-top: 30px;
-    font-family: mine;
+    font-family: mine, Arial, sans-serif;
     font-weight: normal;
     font-size: 3em;
 }
@@ -68,9 +63,10 @@ nav > a {
     margin-right: 30px;
     text-decoration: none;
     color: white;
+    font-weight: bold;
     border: 3px solid var(--cor05);
     background-color: var(--cor04);
-    padding: 4px;
+    padding: 6px;
     border-radius: 5px;
 }
 
@@ -89,15 +85,30 @@ main {
     margin-bottom: 20px;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.267);
 }
-
+main > h1 {
+    margin-bottom: 40px;
+    font-family: titulo, 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    font-size: 3em;
+    font-weight: normal;
+}
 main > h2 {
     margin-bottom: 30px;
     margin-top: 30px;
-    font-size: 3em;
-    font-family: titulo;
+    font-size: 2em;
+    font-family: subtitulo, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
 }
 
+main > p {
+    line-height: 25px;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+main strong {
+    color: var(--cor05);
+    font-weight: normal;
+}
 main a {
     color: var(--cor04);
     text-decoration: none;
