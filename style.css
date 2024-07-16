@@ -84,6 +84,7 @@ main {
     line-height: 25px;
     margin-bottom: 20px;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.267);
+    min-height: calc(100vh - 330px);
 }
 main > h1 {
     margin-bottom: 40px;
