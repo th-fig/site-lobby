@@ -137,7 +137,8 @@ li.rede {
     padding-top: 10px;
     padding-left: 10px;
 }
-ul {
+
+ul.redes {
     columns: 2;
     list-style: none;
     padding: 10px;
@@ -182,22 +183,6 @@ p#sobre {
     margin-top: 0px;
     vertical-align: middle;
 }
-
-@media (max-width: 640px) {
-  p#sobre {
-    width: 60%; 
-  }
-
-  nav > a {
-    margin-right: 20px;
-  }
-}
-
-@media (max-width: 560px) {
-    ul.sites {
-        columns: 1;
-    }
-}
 img#foto {
     padding-left: 10px;
     display: inline-block;
@@ -223,4 +208,44 @@ img.icon {
 
 p.home{
     text-indent: 0px;
+}
+
+h1#titulo1 {
+    display: block;
+}
+
+h1#titulo2 {
+    display: none;
+}
+
+
+@media (max-width: 640px) {
+  p#sobre {
+    width: 60%; 
+  }
+
+  nav > a {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+    ul.sites {
+        columns: 1;
+    }
+}
+@media (max-width: 500px) {
+    ul.redes {
+        columns: 1;
+    }
+}
+
+@media (max-width: 740px) {
+    h1#titulo1 {
+    display: none;
+}
+
+h1#titulo2 {
+    display: block;
+}
 }
