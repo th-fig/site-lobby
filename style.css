@@ -60,7 +60,8 @@ nav {
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.356);
 }
 nav > a {
-    margin-right: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -136,6 +137,7 @@ li.rede {
     gap: 8px;
     padding-top: 10px;
     padding-left: 10px;
+    text-align: center;
 }
 
 ul.redes {
@@ -196,6 +198,7 @@ div#sobree {
     max-width: 600px;
     padding: 0px;
     text-align: center;
+    justify-items: center;
 }
 
 img.icon {
@@ -217,7 +220,6 @@ h1#titulo2 {
     display: none;
 }
 
-
 @media (max-width: 640px) {
   p#sobre {
     width: 50%; 
@@ -237,18 +239,28 @@ h1#titulo2 {
         columns: 1;
     }
 }
+
 @media (max-width: 500px) {
     ul.redes {
         columns: 1;
+    }
+    p#sobre {
+        display: block;
+        width: 75%;
+    }
+    img#foto {
+        margin-top: 10px;
+        display: block;
+        width: 200px;
+        height: 266px;
     }
 }
 
 @media (max-width: 740px) {
     h1#titulo1 {
     display: none;
-}
-
-h1#titulo2 {
+    }
+    h1#titulo2 {
     display: block;
-}
+    }
 }
