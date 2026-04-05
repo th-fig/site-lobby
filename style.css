@@ -195,8 +195,7 @@ div#sobree {
     margin: auto;
     max-width: 600px;
     padding: 0px;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 img.icon {
@@ -221,7 +220,11 @@ h1#titulo2 {
 
 @media (max-width: 640px) {
   p#sobre {
-    width: 60%; 
+    width: 50%; 
+  }
+  img#foto {
+    height: 45%;
+    width: 45%;
   }
 
   nav > a {
