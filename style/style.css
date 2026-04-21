@@ -181,17 +181,6 @@ ul.redes {
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.267);
 }
-ul.sites{
-    columns: 2;
-    list-style: none;
-    list-style-type: '⚊ ';
-    padding: 10px;
-    list-style-position: inside;
-    background-color: var(--cor01);
-    border-radius: 10px;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.267);
-}
-
 footer {
     background-color: var(--cor05);
     color: white;
@@ -284,10 +273,6 @@ h1#titulo2 {
         width: 200px;
         height: 266px;
     }
-    nav > a {
-    margin-right: 0px;
-    margin-left: 7px;
-  }
 }
 
 @media (max-width: 740px) {
