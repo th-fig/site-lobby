@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projetos web desenvolvidos por Thiago Figueiredo com foco em front-end, prática e evolução técnica.">
     <link rel="shortcut icon" href="../../midia/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="../../style/style.css"">
-    <title>Projetos - Web</title>
+    <link rel="stylesheet" href="../../style/style.css">
+    <title>Projetos Web | ThH Lobby</title>
 </head>
 <body>
     <header>
-        <h1>ThH Lobby</h1>  
+        <p class="header-label">Portfólio pessoal</p>
+        <h1>ThH Lobby</h1>
+        <p class="header-subtitle">Projetos web que mostram minha evolução com interface, estrutura e apresentação.</p>
     </header>
     <nav>
         <a href="../../">Home</a>
@@ -17,46 +20,74 @@
         <a href="../../about/">Sobre</a>
     </nav>
     <main>
-        <h1>Projetos Web</h1>
-        <h2>Site Android</h2>
-        <p>
-            O projeto <strong>Site Android</strong> foi criado para o curso de HTML5 e CSS3 do <a href="http://cursoemvideo.com" target="_blank">CursoemVideo</a>, 
-            nele utilizei vários conceitos de ambas as linguagens, como <strong>grouping tags</strong> em HTML e <strong>pseudo-classes</strong> em CSS.
-            Além de ter servido como inspiração para o layout deste site. 
-        </p>
-        <p>
-            Link do projeto: 
-            <a href="https://th-fig.github.io/projeto-android/" target="_blank">/projeto-android</a>
-        </p>
+        <section class="page-hero">
+            <p class="hero-kicker">Projetos web</p>
+            <h1>Trabalhos que combinam prática de front-end, estudo e melhoria contínua.</h1>
+            <p class="page-intro">
+                Cada projeto abaixo representa uma etapa da minha evolução com HTML, CSS e JavaScript,
+                desde estudos mais antigos até aplicações que já refletem mais organização visual e técnica.
+            </p>
+        </section>
 
-        <h2>Site Eletro</h2>
-        <p>
-            O projeto <strong>Site Eletro</strong> foi criado para facilitar os cálculos durante a disciplina de Projetos de Instalações Elétricas que tive durante meu curso técnico no Senai. Para desenvolvê-lo utilizei conhecimentos de HTML, CSS e JavaScript.
-        </p>
-        <p>
-            Link do projeto: <a href="https://th-fig.github.io/site-eletro/" target="_blank">/site-eletro</a>
-        </p>
+        <section class="project-grid">
+            <article class="project-card">
+                <span class="project-tag">HTML + CSS</span>
+                <h2>Site Android</h2>
+                <p>
+                    Projeto criado durante o curso de HTML5 e CSS3 do
+                    <a href="http://cursoemvideo.com" target="_blank" rel="noopener noreferrer">Curso em Vídeo</a>.
+                    Nele pratiquei conceitos importantes de estruturação em HTML e estilização em CSS, além de
+                    absorver referências que influenciaram meu próprio layout.
+                </p>
+                <div class="link-list">
+                    <a href="https://th-fig.github.io/projeto-android/" target="_blank" rel="noopener noreferrer">Ver projeto online</a>
+                </div>
+            </article>
 
-        <h2>Lista de Links</h2>
-        <p>
-            Este projeto foi criado apenas para testar meus conhecimentos com links em HTML, por ser um projeto antigo ele não está mais totalmente funcional e nem é de longe meu melhor projeto mas está aqui como um registro de como melhorei com o passar do tempo.
-        </p>
-        <p>
-            Link do projeto: <a href="https://th-fig.github.io/projeto-lista/index.html" target="_blank">/projeto-lista</a>
-        </p>
-        <h2>Site Lobby</h2>
-        <p> 
-            Não podemos esquecer do site em que você está agora, ele também foi um projeto desenvolvido por mim, ainda tenho muita coisa para melhorar mas já está em um estado bem aceitável na parte de HTML e CSS.
-        </p>
-        <p>
-            Link do projeto: você já está dentro do site do projeto.
-        </p>
+            <article class="project-card">
+                <span class="project-tag">HTML + CSS + JavaScript</span>
+                <h2>Site Eletro</h2>
+                <p>
+                    Aplicação criada para facilitar cálculos usados na disciplina de Projetos de Instalações Elétricas
+                    do curso técnico. O projeto une interface simples com utilidade prática e lógica em JavaScript.
+                </p>
+                <div class="link-list">
+                    <a href="https://th-fig.github.io/site-eletro/" target="_blank" rel="noopener noreferrer">Ver projeto online</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <span class="project-tag">Projeto de estudo</span>
+                <h2>Lista de Links</h2>
+                <p>
+                    Um projeto mais antigo, criado para praticar o uso de links em HTML. Hoje ele funciona também
+                    como registro da minha evolução, mostrando como meu estilo e minha organização melhoraram com o tempo.
+                </p>
+                <div class="link-list">
+                    <a href="https://th-fig.github.io/projeto-lista/index.html" target="_blank" rel="noopener noreferrer">Ver projeto online</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <span class="project-tag">Portfólio atual</span>
+                <h2>Site Lobby</h2>
+                <p>
+                    Este próprio site faz parte do portfólio. Ele centraliza meus projetos e serve como exercício
+                    contínuo de estrutura, identidade visual, responsividade e apresentação profissional.
+                </p>
+                <div class="link-list">
+                    <a href="../../">Abrir a página inicial</a>
+                </div>
+            </article>
+        </section>
+
         <div id="botao">
-            <a href="../"><button>Voltar</button></a>
+            <a class="button-secondary" href="../">Voltar para categorias</a>
         </div>
     </main>
     <footer>
-        <p> Dev by <a href="https://github.com/th-fig" target="_blank">Thiago Figueiredo :)</a> </p>
+        <p>Desenvolvido por <a href="https://github.com/th-fig" target="_blank" rel="noopener noreferrer">Thiago Figueiredo</a></p>
     </footer>
+    <script src="../../main.js"></script>
 </body>
 </html>

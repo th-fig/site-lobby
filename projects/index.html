@@ -3,31 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coleção de projetos web e eletrônicos desenvolvidos por Thiago Figueiredo.">
     <link rel="shortcut icon" href="../midia/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../style/style.css">
-    <title>Projetos</title>
+    <title>Projetos | ThH Lobby</title>
 </head>
 <body>
     <header>
-        <h1>ThH Lobby</h1>  
+        <p class="header-label">Portfólio pessoal</p>
+        <h1>ThH Lobby</h1>
+        <p class="header-subtitle">Projetos organizados para destacar aprendizado, execução e evolução.</p>
     </header>
     <nav>
         <a href="../">Home</a>
-        <a href="../projects/">Projetos</a>
+        <a href="./">Projetos</a>
         <a href="../about/">Sobre</a>
     </nav>
     <main>
-        <h1>Meus Projetos</h1>
-        <p>Neste espaço, reúno os projetos que desenvolvi, abrangendo tanto aplicações web quanto trabalhos na área de eletrônica. Pretendo, futuramente, expandir o conteúdo com novas categorias organizadas em abas específicas. Para acessá-los, basta selecionar uma das opções abaixo.
-        </p>
-        <div id="projs">
-        <a href="web/"><button class="bttn_projs">Web</button></a>
-        <a href="electronic/"><button class="bttn_projs">Eletrônica</button></a>
-        </div>
+        <section class="page-hero">
+            <p class="hero-kicker">Projetos</p>
+            <h1>Uma visão geral do que venho construindo em desenvolvimento web e eletrônica.</h1>
+            <p class="page-intro">
+                Esta seção reúne projetos publicados e estudos práticos. As categorias abaixo separam meus
+                trabalhos por área para facilitar a navegação e destacar melhor cada tipo de solução.
+            </p>
+        </section>
 
+        <section class="section-card">
+            <div class="category-grid">
+                <article class="category-card">
+                    <span class="highlight-label">Categoria 01</span>
+                    <h2>Projetos Web</h2>
+                    <p>
+                        Páginas, interfaces e experimentos desenvolvidos com foco em HTML, CSS, JavaScript,
+                        estrutura visual e evolução de front-end.
+                    </p>
+                    <a class="button-primary" href="web/">Explorar projetos web</a>
+                </article>
+                <article class="category-card">
+                    <span class="highlight-label">Categoria 02</span>
+                    <h2>Projetos de Eletrônica</h2>
+                    <p>
+                        Aplicações com Arduino e componentes eletrônicos, voltadas para prática técnica,
+                        lógica de funcionamento e integração entre hardware e software.
+                    </p>
+                    <a class="button-primary" href="electronic/">Explorar projetos de eletrônica</a>
+                </article>
+            </div>
+        </section>
     </main>
     <footer>
-        <p> Dev by <a href="https://github.com/th-fig" target="_blank">Thiago Figueiredo :)</a> </p>
+        <p>Desenvolvido por <a href="https://github.com/th-fig" target="_blank" rel="noopener noreferrer">Thiago Figueiredo</a></p>
     </footer>
+    <script src="../main.js"></script>
 </body>
 </html>

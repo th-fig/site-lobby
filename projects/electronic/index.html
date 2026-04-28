@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projetos de eletrônica e Arduino desenvolvidos por Thiago Figueiredo.">
     <link rel="shortcut icon" href="../../midia/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../../style/style.css">
-    <title>Projetos - Eletrônica</title>
+    <title>Projetos de Eletrônica | ThH Lobby</title>
 </head>
 <body>
     <header>
-        <h1>ThH Lobby</h1>  
+        <p class="header-label">Portfólio pessoal</p>
+        <h1>ThH Lobby</h1>
+        <p class="header-subtitle">Projetos técnicos com Arduino, sensores, displays e lógica aplicada.</p>
     </header>
     <nav>
         <a href="../../">Home</a>
@@ -17,58 +20,76 @@
         <a href="../../about/">Sobre</a>
     </nav>
     <main>
+        <section class="page-hero">
+            <p class="hero-kicker">Projetos de eletrônica</p>
+            <h1>Experimentos práticos que conectam hardware, lógica e resolução de problemas.</h1>
+            <p class="page-intro">
+                Aqui estão alguns trabalhos desenvolvidos com Arduino e componentes eletrônicos.
+                Eles mostram aplicações voltadas para automação, contagem, controle e interação com sensores.
+            </p>
+        </section>
 
-        <h1>Projetos de Eletrônica</h1>
+        <section class="project-grid">
+            <article class="project-card">
+                <span class="project-tag">Arduino</span>
+                <h2>Semáforo</h2>
+                <p>
+                    Projeto clássico de iniciação com Arduino, expandido com semáforo para pedestres e display
+                    de 7 segmentos para indicar o tempo restante de travessia.
+                </p>
+                <div class="link-list">
+                    <a href="https://github.com/th-fig/arduino-semaforo" target="_blank" rel="noopener noreferrer">Ver código no GitHub</a>
+                    <a href="https://www.tinkercad.com/things/4TyOGANOVjT-semaforo?sharecode=dU5eTDjiCIg75QU2LoFjsPxsHeIZjWdFY44PYHtQDdw" target="_blank" rel="noopener noreferrer">Abrir no Tinkercad</a>
+                </div>
+            </article>
 
-        <h2>Semáforo</h2>
-        <p>
-            Clássico projeto de iniciante em Arduino porém com detalhes a mais, adicionei um semáforo para pedestres além de um display de 7 segmentos para cronometrar o tempo restante para o pedestre atravessar a rua. Os links para baixar o código e acessar ele no simulador do Tinkercad estão abaixo.
-        </p>
-        <p class="link">
-            Link do GitHub: <a href="https://github.com/th-fig/arduino-semaforo" target="_blank">/semaforo</a>
-        </p>
-        <p class="link">
-            Link do Tinkercad: <a href="https://www.tinkercad.com/things/4TyOGANOVjT-semaforo?sharecode=dU5eTDjiCIg75QU2LoFjsPxsHeIZjWdFY44PYHtQDdw" target="_blank">/semaforo</a>
-        </p>
+            <article class="project-card">
+                <span class="project-tag">Arduino + IR + LCD</span>
+                <h2>Contador Infravermelho</h2>
+                <p>
+                    Sistema com sensor infravermelho e display LCD com interface I2C, capaz de incrementar,
+                    decrementar e resetar um contador por controle remoto.
+                </p>
+                <div class="link-list">
+                    <a href="https://github.com/th-fig/arduino-contador-infravermelho" target="_blank" rel="noopener noreferrer">Ver código no GitHub</a>
+                    <a href="https://www.tinkercad.com/things/eUKC1x3693h-contador-com-sensor-infravermelho?sharecode=naZR1mkUvgerRDFcRTsqQLz_6kAA3aLma0NmCmuPcqY" target="_blank" rel="noopener noreferrer">Abrir no Tinkercad</a>
+                </div>
+            </article>
 
-        <h2>Contador Infravermelho</h2>
-        <p>
-            Um projeto mais avançado que utiliza Arduino, sensor infravermelho e display LCD com interface I2C. O sistema exibe um contador que pode ser incrementado, decrementado ou resetado remotamente por meio do sensor infravermelho.
-        </p>
-         <p class="link">
-            Link do GitHub: <a href="https://github.com/th-fig/arduino-contador-infravermelho" target="_blank">/contador-infravermelho</a>
-        </p>
-        <p class="link">
-            Link do Tinkercad: <a href="https://www.tinkercad.com/things/eUKC1x3693h-contador-com-sensor-infravermelho?sharecode=naZR1mkUvgerRDFcRTsqQLz_6kAA3aLma0NmCmuPcqY" target="_blank">/contador-infravermelho</a>
-        </p>
+            <article class="project-card">
+                <span class="project-tag">Arduino + Servo</span>
+                <h2>Servo Potenciômetro</h2>
+                <p>
+                    Projeto em que um potenciômetro controla a posição de um servo motor, enquanto um display LCD-I2C
+                    exibe em tempo real a posição atual do sistema.
+                </p>
+                <div class="link-list">
+                    <a href="https://github.com/th-fig/arduino-servo-potenciometro" target="_blank" rel="noopener noreferrer">Ver código no GitHub</a>
+                    <a href="https://www.tinkercad.com/things/jHODCXALJX8-servo-potenciometro" target="_blank" rel="noopener noreferrer">Abrir no Tinkercad</a>
+                </div>
+            </article>
 
-        <h2>Servo Potenciômetro</h2>
+            <article class="project-card">
+                <span class="project-tag">Arduino + Ultrassônico</span>
+                <h2>Sensor de Proximidade</h2>
+                <p>
+                    Sistema com sensor ultrassônico para alterar o comportamento de um LED quando um objeto se aproxima
+                    de uma distância mínima definida, utilizando lógica de temporização e mudança de estado.
+                </p>
+                <div class="link-list">
+                    <a href="https://github.com/th-fig/arduino-sensor-proximidade" target="_blank" rel="noopener noreferrer">Ver código no GitHub</a>
+                    <a href="https://www.tinkercad.com/things/ljwEVYzNGdO-sensor-proximidade?sharecode=95nGLJ3pHGXlXA3A7l4am4mh_Iz6vINlgfAno_g9LMs" target="_blank" rel="noopener noreferrer">Abrir no Tinkercad</a>
+                </div>
+            </article>
+        </section>
 
-        <p>
-            Um projeto clássico para quem utiliza Arduino, no qual um potenciômetro é usado para controlar a posição de um servo motor. Além disso, o sistema exibe em um display LCD-I2C a posição atual do servo em tempo real.
-        </p>
-        <p class="link">
-            Link do GitHub: <a href="https://github.com/th-fig/arduino-servo-potenciometro" target="_blank">/servo-potenciometro</a>
-        </p>
-        <p class="link">
-            Link do Tinkercad: <a href="https://www.tinkercad.com/things/jHODCXALJX8-servo-potenciometro" target="_blank">/servo-potenciometro</a>
-        </p>
-        <h2>Sensor de Proximidade</h2>
-        <p>
-            Um projeto que utiliza um sensor ultrassônico para controlar um LED: ao detectar a aproximação de um objeto abaixo de uma distância mínima definida, um temporizador é acionado e o modo de funcionamento do LED é alterado. Para evitar complicações desnecessárias não tente entender como o código funciona, apenas aceite que ele cumpre sua função.
-        </p>
-        <p class="link">
-            Link do GitHub: <a href="https://github.com/th-fig/arduino-sensor-proximidade" target="_blank">/sensor-proximidade</a>
-        </p>
-        <p class="link">
-            Link do Tinkercad: <a href="https://www.tinkercad.com/things/ljwEVYzNGdO-sensor-proximidade?sharecode=95nGLJ3pHGXlXA3A7l4am4mh_Iz6vINlgfAno_g9LMs" target="_blank">/sensor-proximidade</a>
-        </p>
         <div id="botao">
-            <a href="../"><button>Voltar</button></a>
+            <a class="button-secondary" href="../">Voltar para categorias</a>
         </div>
     </main>
     <footer>
-        <p> Dev by <a href="https://github.com/th-fig" target="_blank">Thiago Figueiredo :)</a> </p>
+        <p>Desenvolvido por <a href="https://github.com/th-fig" target="_blank" rel="noopener noreferrer">Thiago Figueiredo</a></p>
     </footer>
+    <script src="../../main.js"></script>
 </body>
 </html>
